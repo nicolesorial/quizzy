@@ -1,7 +1,7 @@
 # Quizzy
 `Quizzy` is a proof-of-concept for a quiz taking platform, similar to Sporcle or Buzzfeed. This is the final project for CS3200 Database Design at Northeastern University with group members Meredith Scott, Jenna Sigman, and Nicole Sorial. Users can take quizzes and see some statistics, and quiz writers can upload, edit, and delete quizzes, as well as view aggregated statistics for quizzes they have written
 
-Link to video: drive.google.com/file/d/1yeB1Or9bGxbq1hd82UPKW-BkcqlFgdZ6/view?usp=sharing
+Link to video: www.youtube.com/watch?v=mcXT-ZRPsHg&ab_channel=MeredithScott
 
 ## Disclaimer
 Not all of the features of this app are fully functional. Specifically, as there is no proper backend server, the statistics-related operations do not work as well as one would hope, as there isn't a set way to update them (the data aggregates very quickly and it would be very expensive to maintain on a per transaction basis -- we would likely opt for a nightly operation that updates all the quiz statistics in bulk). Rather, as the app stands now, it displays the statistics as they are in the database at time of data generation. In a future iteration of the project, we would add improved handling to this data on the server side.
